@@ -1,0 +1,74 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color:linear-gradient(to right, #E0BBE4, #957DAD); /* Light Purple Theme */
+}
+
+
+/* ============ Login Page Styling ============ */
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  background: linear-gradient(to right, #E0BBE4, #957DAD); /* Light Purple Theme */
+
+}
+
+.login-title {
+  font-size: 2rem;
+  color: #E0BBE4;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px rgba(75, 74, 74, 0.3);
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px); /* Glassmorphism Effect */
+}
+
+.login-form input {
+  width: 350px;
+  height: 50;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  background: rgba(4, 179, 62, 0.2);
+  color: rgb(8, 7, 7);
+  outline: none;
+}
+
+.login-form input::placeholder {
+  color:#080a0a;
+}
+
+.login-form button {
+  background: #E0BBE4;
+  color: white;
+  padding: 12px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+.login-form button:hover {
+  background: #E0BBE4;
+}
+
+  
