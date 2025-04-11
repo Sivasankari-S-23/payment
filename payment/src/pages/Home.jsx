@@ -1,11 +1,12 @@
 function Home() {
-    return (
-      <div>
-        <h1>Welcome to Payment Wallet</h1>
-        <p>Manage your transactions securely.</p>
+  return (
+    <div className="home-full-bg">
+      <div className="home-content">
+        <h1>Welcome to Your Payment Wallet</h1>
+        <p>Send and receive money with ease and security!</p>
       </div>
-    );
-  }
-  
-  export default Home;
-  
+    </div>
+  );
+}
+
+export default Home;
